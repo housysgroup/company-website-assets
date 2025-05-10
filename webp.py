@@ -28,7 +28,7 @@ def convert_images_to_webp(source_folder, destination_folder):
                     print(f"Failed to convert {file_path}: {e}")
 
 # Define source and destination folders
-source_folder = "/Users/heysi/Desktop/company-website-assets-2/src"
-destination_folder = "/Users/heysi/Desktop/company-website-assets-2/src/assets2"
+source_folder = "/Users/heysi/Desktop/company-website-assets/src/assets_raw"
+destination_folder = "/Users/heysi/Desktop/company-website-assets/src/assets_optimized"
 
 convert_images_to_webp(source_folder, destination_folder)
